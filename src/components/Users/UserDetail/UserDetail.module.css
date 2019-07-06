@@ -1,0 +1,81 @@
+.userDetail {
+  margin-top: 2rem;
+}
+.checkColorDanger {
+  color: var(--danger-color);
+}
+.checkColorSuccess {
+  color: var(--success-color);
+}
+.userDetail .backButton {
+  padding: .5rem .6rem;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--light-color);
+  text-decoration: none;
+  color: var(--secondary-color);
+  display: inline-block;
+}
+.userDetail .userSection {
+  margin-top: 2rem;
+  padding: 1rem;
+  box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  background-color: var(--light-grey-color);
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.userDetail .userSection img {
+  width: 10rem;
+  border-radius: 50%;
+}
+.userDetail .userSection .profileSection {
+  justify-self: center;
+  text-align: center;
+}
+.userDetail .badge {
+  padding: .6rem .8rem;
+}
+.userDetail .badgePrimary {
+  background-color: var(--primary-color);
+}
+.userDetail .badgeDanger {
+  background-color: var(--danger-color);
+}
+.userDetail .badgeSuccess {
+  background-color: var(--success-color);
+}
+.userDetail .badgeWarning {
+  background-color: var(--warning-color);
+}
+
+.userDetail .card {
+  margin-top: 2rem;
+  padding: 2rem;
+  box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  background-color: var(--light-grey-color);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.userDetail .card > * {
+  border-radius: 50px;
+}
+
+.userDetail .btn {
+  padding: .5rem .7rem;
+  display: inline-block;
+  margin: .5rem 0;
+  text-decoration: none;
+  border: 0;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.userDetail .btn:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,25 @@
+.userItem {
+  justify-self: center;
+  text-align: center;
+}
+.userItem .imageRound {
+  width: 8rem;
+  border-radius: 50%;
+}
+.userItem a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: .5rem 0;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  background-color: var(--warning-color);
+  color: var(--secondary-color);
+  transition: all .3s;
+}
+
+.userItem a:hover {
+  background-color: var(--secondary-color);
+  color: var(--warning-color);
+}

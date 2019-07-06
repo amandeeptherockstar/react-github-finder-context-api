@@ -1,0 +1,33 @@
+.search {
+  margin: 2rem 0;
+}
+.search .formGroup {
+
+}
+.search .formGroup .formControl{
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: .5rem;
+  margin-bottom: .5rem;
+}
+.search .formGroup .btn {
+  width: 100%;
+  border: 0;
+  padding: .5rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all .4s;
+  margin-bottom: .5rem;
+}
+.search .formGroup .btnPrimary {
+  background-color: var(--danger-color);
+}
+.search .formGroup .btnClear {
+  background-color: var(--warning-color);
+}
+.search .formGroup .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}

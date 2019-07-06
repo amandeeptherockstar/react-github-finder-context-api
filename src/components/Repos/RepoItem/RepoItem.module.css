@@ -1,0 +1,33 @@
+.repoItem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: var(--light-grey-color);
+  box-shadow: .5rem 1rem 1rem rgba(0, 0, 0, .3);
+} 
+.repoItem .repoLink {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--danger-color);
+}
+.repoItem .repoTail {
+  justify-self: end;
+}
+.repoItem .repoTail .stars {
+  margin-right: 1rem;
+}
+.repoItem .repoTail .stars i{
+  margin-right: .5rem;
+  color: var(--success-color);
+}
+.repoItem .repoTail .forks {
+  margin-right: 1rem;
+}
+.repoItem .repoTail .forks i{
+  margin-right: .5rem;
+  color: var(--warning-color);
+}
